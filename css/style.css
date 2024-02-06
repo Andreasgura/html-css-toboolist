@@ -6,11 +6,16 @@
 }
 body {
     font-family: "Roboto", sans-serif;
+    background-color: lightgray;
 }
 .w-80 {
     width: 80%;
     margin: auto;
 }
+.lsnone {
+    list-style: none;
+}
+
 /* text utility */
 .white-text {
     color:white
@@ -18,7 +23,9 @@ body {
 .lgrey-text {
     color: lightgray;
 }
-
+.green-text {
+    color: #7CCAB6;
+}
 /* background utility */
 .bg-celeste {
     background-color: #47ADF1;
@@ -48,9 +55,14 @@ body {
 /* border utility */
 .circle {
     border-radius: 50%;
-    width: 5px;
-    height: 5px;
-    border: 1px solid;
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+    text-align: center;
+    font-weight:700;
+    line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
 }
 .bordercolor-green {
     border-color: #7CCAB6;
@@ -70,9 +82,18 @@ body {
 
 /* header */
 header div, header h1 {
-    display: inline-block;
+    display: inline;
 }
 header h1 {
     line-height: 54px;
     vertical-align: middle;
+}
+
+/* main */
+.botton {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: x-small;
 }
